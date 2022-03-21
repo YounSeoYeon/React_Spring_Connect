@@ -10,6 +10,7 @@ import com.multi.spring_boot_react.product.ProductController;
 
 @SpringBootApplication
 @ComponentScan(basePackageClasses = ProductController.class)
+@ComponentScan(basePackageClasses = MainController.class)
 @MapperScan(basePackageClasses = IProductDAO.class)
 public class SpringBootReactApplication {
 
